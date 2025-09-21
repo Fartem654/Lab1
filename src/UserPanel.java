@@ -27,7 +27,7 @@ public class UserPanel {
 
 	private void t1C3() {
 		IO.println("Циклы, задача 1");
-		int value = input.inputIntRangeMin("Введите целое число больше нуля: ", 0);
+		int value = input.inputIntRangeMin("Введите целое число большее или равное нулю: ", -1);
 		String result = "";
 		result = lab.listNums(value);
 		IO.println("Результат: " + result);
@@ -60,7 +60,7 @@ public class UserPanel {
 
 	private void t2C3() {
 		IO.println("Циклы, задача 3");
-		int value = input.inputIntRangeMin("Введите целое число больше нуля: ", 0);
+		int value = input.inputIntRangeMin("Введите целое число большее или равное нулю: ", -1);
 		String result = "";
 		result = lab.chet(value);
 		IO.println("Результат: " + result);
@@ -112,7 +112,7 @@ public class UserPanel {
 	// задача 7
 	private void t4C1() {
 		IO.println("Методы, задача 7");
-		int num = input.inputInt(), a = input.inputInt(), b = input.inputInt();
+		int  a = input.inputInt(), b = input.inputInt(), num = input.inputInt();
 		boolean result = false;
 		result = lab.isInRange(a, b, num);
 		IO.println("Результат: " + result);
@@ -127,7 +127,7 @@ public class UserPanel {
 
 	private void t4C3() {
 		IO.println("Циклы, задача 7");
-		int value = input.inputInt();
+		int value = input.inputIntRangeMin("Введите целое число больше нуля:", 0);
 		lab.square(value);
 	}
 
@@ -157,9 +157,8 @@ public class UserPanel {
 
 	private void t5C3() {
 		IO.println("Циклы, задача 9");
-		int value = input.inputInt();
+		int value = input.inputIntRangeMin("Введите целое число больше нуля:", 0);
 		lab.rightTriangle(value);
-
 	}
 
 	private void t5C4() {

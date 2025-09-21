@@ -98,7 +98,7 @@ public class CheckInput {
 	 *
 	 */
 	public int inputIntRangeMin(String inputMessage, int min) {
-		return inputIntRangeMin(inputMessage, "Вводимое число не должно быть меньше %d", min);
+		return inputIntRangeMin(inputMessage, "Вводимое число не должно быть меньше или равно %d", min);
 	}
 
 	public int inputIntRangeMax(String inputMessage, int max) {
