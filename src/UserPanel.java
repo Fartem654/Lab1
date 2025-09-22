@@ -112,7 +112,7 @@ public class UserPanel {
 	// задача 7
 	private void t4C1() {
 		System.out.println("Методы, задача 7");
-		int  a = input.inputInt(), b = input.inputInt(), num = input.inputInt();
+		int a = input.inputInt(), b = input.inputInt(), num = input.inputInt();
 		boolean result = false;
 		result = lab.isInRange(a, b, num);
 		System.out.println("Результат: " + result);

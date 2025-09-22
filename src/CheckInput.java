@@ -179,7 +179,7 @@ public class CheckInput {
 		char result = 0;
 
 		while (!isDigit) {
-			System.out.print("Вводимый символ должен представлять собой один из “0 1 2 3 4 5 6 7 8 9”");
+			System.out.print("Вводимый символ должен представлять собой один из “0 1 2 3 4 5 6 7 8 9”\n");
 
 			result = in.next().charAt(0);
 			if ((int) result >= 48 && (int) result <= 57) {
