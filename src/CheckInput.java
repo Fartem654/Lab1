@@ -129,7 +129,7 @@ public class CheckInput {
 	 * Создание целочисленного массива
 	 */
 	public int[] createArrInt(String message) {
-		IO.println(message);
+		System.out.println(message);
 		int len = inputIntRangeMin("Введите длину массива: ", "Длинна массива не может быть меньше %d!",
 				0);
 		int[] arr = new int[len];

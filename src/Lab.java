@@ -1,9 +1,9 @@
 public class Lab {
 
 	private void showArray(int[] arr) {
-		IO.print("Массив: ");
+		System.out.print("Массив: ");
 		for (int j : arr) {
-			IO.print(j + " ");
+			System.out.print(j + " ");
 		}
 	}
 
@@ -148,7 +148,7 @@ public class Lab {
 		}
 
 		for (int i = 0; i < value; i++) {
-			IO.println(line);
+			System.out.println(line);
 		}
 	}
 
@@ -164,7 +164,7 @@ public class Lab {
 			for (int j = i; j > 0; j--) {
 				line += "*";
 			}
-			IO.println(line);
+			System.out.println(line);
 		}
 	}
 
